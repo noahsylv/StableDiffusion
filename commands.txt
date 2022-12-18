@@ -1,0 +1,30 @@
+# 1920/1080 -> 1664/936
+
+python optimizedSD/sequence_generation.py --prompt "snakes in the grass" --video-file "assets/videos/pa2.mp4" --fps 24 --strength 0.3 --W 1664 --H 936.
+
+
+python optimizedSD/sequence_generation.py --prompt "scary monster" --video-file "assets/videos/pa1.MP4" --fps 24 --strength 0.3 --W 1664 --H 936 --turbo
+python optimizedSD/sequence_generation.py --prompt "scary monster" --video-file "assets/videos/pa1.MP4" --fps 24 --strength 0.4 --W 1664 --H 936 --turbo
+
+
+
+python optimizedSD/sequence_generation.py --prompt "medusa" --video-file "assets/videos/olivia1.MOV" --fps 24 --strength 0.4 --W 1664 --H 936 --turbo
+python optimizedSD/sequence_generation.py --prompt "a lonely ghost in a spooky house" --video-file "assets/videos/olivia1.MOV" --fps 24 --strength 0.5 --W 940 --H 512 --turbo
+
+
+python optimizedSD/sequence_generation.py --prompt "scary monster" --video-file "assets/videos/nate.3gp" --fps 24 --strength 0.4 --H 352) --W 200 --turbo
+
+
+python optimizedSD/sequence_generation.py --prompt "somber painting" --video-file "assets/videos/la_bulles.mp4" --fps 2 --strength 0.4 --H 900 --W 1600 --turbo
+
+
+
+
+
+python optimizedSD/sequence_generation.py --prompt "somber painting" --video-file "assets/videos/la_bulles.mp4" --fps 2 --strength 0.4 --H 900 --W 1600 --turbo
+python optimizedSD/sequence_generation.py --prompt "somber painting" --video-file "assets/videos/la_bulles.mp4" --fps 0.25 --strength 0.4 --H 672 --W 1200 --turbo
+
+
+ python optimizedSD/sequence_generation.py --prompt "jazz club" --video-file "assets/videos/pa_dance.mp4" --fps 4 --strength 0.4 --H 936 --W 1664 --turbo
+
+python optimizedSD/sequence_chain.py --prompt "animed tree roots" --strength 0.51 --H 672 --W 1200 --turbo --image-file "assets/noah_text_img.png" --n 20
